@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Options</title>
+  <link rel="stylesheet" href="stylie.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="#">
+      <h2>Video Options</h2>
+      <br>
+
+      <!-- Video Link Input -->
+      <div class="input-field">
+        <p>Upload Video Link</p>
+        <input type="url" id="video-link" required>
+        <label for="video-link"></label>
+      </div>
+
+      <br>
+
+      <!-- Caption Option -->
+      <div class="options">
+        <p>Do you want captions?</p>
+        <label>
+          <input type="radio" name="caption" value="yes" required> Yes
+        </label>
+        <label>
+          <input type="radio" name="caption" value="no" required> No
+        </label>
+      </div>
+
+      <br>
+
+      <!-- Caption Language Selection -->
+      <div class="input-field">
+        <p>Preferred language for captions</p>
+        <label for="caption-language"></label>
+        <select id="caption-language" name="caption-language">
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+          <option value="marathi">Marathi</option>
+        </select>
+      </div>
+
+      <br>
+
+      <!-- Summary Option -->
+      <div class="options">
+        <p>Do you want a summary?</p>
+        <label>
+          <input type="radio" name="summary" value="yes" required> Yes
+        </label>
+        <label>
+          <input type="radio" name="summary" value="no" required> No
+        </label>
+      </div>
+
+      <br>
+
+      <!-- Summary Language Selection -->
+      <div class="input-field">
+        <p>Preferred language for summary</p>
+        <label for="summary-language"></label>
+        <select id="summary-language" name="summary-language">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="marathi">Marathi</option>
+        </select>
+      </div>
+
+      <br>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
